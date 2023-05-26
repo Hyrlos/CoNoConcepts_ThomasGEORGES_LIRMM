@@ -1,0 +1,1 @@
+<3>  => exist_products2UserStories(As a farmer I can CRUD plots),exist_products2UserStories(As a admin I can relaunch all failed simulation),exist_products2UserStories(exist_userStories2Roles(farmer)),exist_products2UserStories(exist_userStories2Roles(administrator))

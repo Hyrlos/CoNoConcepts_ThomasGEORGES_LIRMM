@@ -1,0 +1,13 @@
+features,farmer,farmerwithplot,farmerirrigator,administrator
+can refresh the predicted weather,x,,,
+can CRUD plots,x,,,
+can edit the parameters of a plot current season ,x,x,,
+can sort my plots in the list,x,x,,
+can filter my plots in the list,x,x,,
+can export observation data for a plot,x,x,,
+know when my plots will be in danger,x,x,,
+can manage my irrigations and recommendations in my favorite unit,x,,x,
+choose my preferred irrigation unit in my user-settings,x,,x,
+can view my irrigation recommendations in my favorite unit,x,,x,
+can CRUD a farmer,,,,x
+can relaunch all failed simulation,,,,x

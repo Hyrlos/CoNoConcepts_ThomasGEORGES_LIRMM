@@ -1,0 +1,1 @@
+mrs: step=1 nb.concepts=12 nb.attrib rel.=0

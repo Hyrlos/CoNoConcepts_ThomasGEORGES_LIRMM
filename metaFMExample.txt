@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+ 		<graphics key="legendautolayout" value="true"/>
+ 		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+<struct>
+	<and abstract="true" mandatory="true" name="jouet">
+		<and abstract="true" name="farmer">
+			<and abstract="true" name="refresh predicted weather">
+				<feature mandatory="False" name="can refresh the predicted weather"/>
+			</and>
+			<and abstract="true" name="crud plots">
+				<feature mandatory="False" name="can CRUD plots"/>
+			</and>
+			<and abstract="true" name="plots plot list">
+				<feature mandatory="False" name="can edit the parameters of a plot current season "/>
+				<feature mandatory="False" name="can sort my plots in the list"/>
+				<feature mandatory="False" name="can filter my plots in the list"/>
+				<feature mandatory="False" name="can export observation data for a plot"/>
+				<feature mandatory="False" name="know when my plots will be in danger"/>
+			</and>
+			<and abstract="true" name="unit recommendations favorite">
+				<feature mandatory="False" name="can manage my irrigations and recommendations in my favorite unit"/>
+				<feature mandatory="False" name="choose my preferred irrigation unit in my user-settings"/>
+				<feature mandatory="False" name="can view my irrigation recommendations in my favorite unit"/>
+			</and>
+		</and>
+		<and abstract="true" name="administrator">
+			<and abstract="true" name="crud farmer relaunch">
+				<feature mandatory="False" name="can CRUD a farmer"/>
+				<feature mandatory="False" name="can relaunch all failed simulation"/>
+			</and>
+		</and>
+	</and>
+</struct>
+	<constraints>
+		<rule>
+<not><conj><var>can CRUD plots</var><var>can relaunch all failed simulation</var></conj></not>
+		</rule>
+		<rule>
+<not><conj><var>can refresh the predicted weather</var><var>can CRUD plots</var><var>can sort my plots in the list</var><var>can filter my plots in the list</var><var>can export observation data for a plot</var><var>know when my plots will be in danger</var><var>choose my preferred irrigation unit in my user-settings</var><var>can view my irrigation recommendations in my favorite unit</var><var>can CRUD a farmer</var><var>can relaunch all failed simulation</var></conj></not>
+		</rule>
+		<rule>
+<not><conj><var>can refresh the predicted weather</var><var>can CRUD plots</var><var>can export observation data for a plot</var><var>know when my plots will be in danger</var><var>can manage my irrigations and recommendations in my favorite unit</var><var>choose my preferred irrigation unit in my user-settings</var><var>can view my irrigation recommendations in my favorite unit</var><var>can CRUD a farmer</var><var>can relaunch all failed simulation</var></conj></not>
+		</rule>
+	</constraints>
+</featureModel>

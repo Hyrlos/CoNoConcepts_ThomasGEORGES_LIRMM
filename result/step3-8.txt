@@ -1,0 +1,1 @@
+clusters: step=4 nb.concepts=5 nb.attrib rel.=0

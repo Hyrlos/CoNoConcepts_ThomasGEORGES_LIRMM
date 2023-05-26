@@ -1,0 +1,13 @@
+US,can refresh the predicted weather,can CRUD plots,can edit the parameters of a plot current season ,can sort my plots in the list,can filter my plots in the list,can export observation data for a plot,know when my plots will be in danger,can manage my irrigations and recommendations in my favorite unit,choose my preferred irrigation unit in my user-settings,can view my irrigation recommendations in my favorite unit,can CRUD a farmer,can relaunch all failed simulation
+As a farmer  I can refresh the predicted weather,x,,,,,,,,,,,
+As a farmer I can CRUD plots,,x,,,,,,,,,,
+As a farmer with a plot I can edit the parameters of a plot (current season),,,x,,,,,,,,,
+As a farmer with a plot I can sort my plots in the list,,,,x,,,,,,,,
+As a farmer with a plot I can filter my plots in the list,,,,,x,,,,,,,
+As a farmer with a plot I can export observation data for a plot,,,,,,x,,,,,,
+As a farmer with a plot I know when my plots will be in danger,,,,,,,x,,,,,
+As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit,,,,,,,,x,,,,
+As a farmer irrigator I choose my preferred irrigation unit in my user-settings,,,,,,,,,x,,,
+As a farmer irrigator I can view my irrigation recommendations in my favorite unit,,,,,,,,,,x,,
+As a admin I can CRUD a farmer,,,,,,,,,,,x,
+As a admin I can relaunch all failed simulation,,,,,,,,,,,,x

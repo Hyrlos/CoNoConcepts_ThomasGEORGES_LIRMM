@@ -1,0 +1,96 @@
+digraph G { 
+	rankdir=BT;
+subgraph products { 
+label="products";
+4 [shape=record,label="{Concept_products_4|Vine\nexist_products2UserStories(As a farmer with a plot I can export observation data for a plot)\nexist_products2UserStories(As a farmer irrigator I choose my preferred irrigation unit in my user-settings)\n|Vine\n}"];
+3 [shape=record,label="{Concept_products_3|Orchard\nexist_products2UserStories(As a farmer with a plot I can sort my plots in the list)\nexist_products2UserStories(As a farmer with a plot I can filter my plots in the list)\n|Orchard\n}"];
+5 [shape=record,label="{Concept_products_5|Almond\nexist_products2UserStories(As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit)\n|Almond\n}"];
+45 [shape=record,label="{Concept_products_45|exist_products2UserStories(As a farmer  I can refresh the predicted weather)\nexist_products2UserStories(As a farmer with a plot I can edit the parameters of a plot (current season))\nexist_products2UserStories(As a farmer with a plot I know when my plots will be in danger)\nexist_products2UserStories(As a admin I can CRUD a farmer)\nexist_products2UserStories(exist_userStories2Roles(farmerwithplot))\n|}"];
+46 [shape=record,label="{Concept_products_46|exist_products2UserStories(As a farmer irrigator I can view my irrigation recommendations in my favorite unit)\nexist_products2UserStories(exist_userStories2Roles(farmerirrigator))\n|}"];
+47 [shape=record,label="{Concept_products_47|exist_products2UserStories(As a farmer I can CRUD plots)\nexist_products2UserStories(As a admin I can relaunch all failed simulation)\nexist_products2UserStories(exist_userStories2Roles(farmer))\nexist_products2UserStories(exist_userStories2Roles(administrateur))\n|}"];
+	4 -> 45
+	3 -> 45
+	4 -> 46
+	5 -> 46
+	45 -> 47
+	46 -> 47
+}
+subgraph US { 
+label="US";
+14 [shape=record,label="{Concept_US_14|As a farmer with a plot I can edit the parameters of a plot (current season)\nexist_userStories2features(can edit the parameters of a plot current season)\n|As a farmer with a plot I can edit the parameters of a plot (current season)\n}"];
+15 [shape=record,label="{Concept_US_15|As a farmer with a plot I can sort my plots in the list\nexist_userStories2features(can sort my plots in the list)\n|As a farmer with a plot I can sort my plots in the list\n}"];
+16 [shape=record,label="{Concept_US_16|As a farmer with a plot I can filter my plots in the list\nexist_userStories2features(can filter my plots in the list)\n|As a farmer with a plot I can filter my plots in the list\n}"];
+17 [shape=record,label="{Concept_US_17|As a farmer with a plot I can export observation data for a plot\nexist_userStories2features(can export observation data for a plot)\n|As a farmer with a plot I can export observation data for a plot\n}"];
+18 [shape=record,label="{Concept_US_18|As a farmer with a plot I know when my plots will be in danger\nexist_userStories2features(know when my plots will be in danger)\n|As a farmer with a plot I know when my plots will be in danger\n}"];
+19 [shape=record,label="{Concept_US_19|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit\nexist_userStories2features(can manage my irrigations and recommendations in my favorite unit)\n|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit\n}"];
+20 [shape=record,label="{Concept_US_20|As a farmer irrigator I choose my preferred irrigation unit in my user-settings\nexist_userStories2features(choose my preferred irrigation unit in my user-settings)\n|As a farmer irrigator I choose my preferred irrigation unit in my user-settings\n}"];
+21 [shape=record,label="{Concept_US_21|As a farmer irrigator I can view my irrigation recommendations in my favorite unit\nexist_userStories2features(can view my irrigation recommendations in my favorite unit)\n|As a farmer irrigator I can view my irrigation recommendations in my favorite unit\n}"];
+12 [shape=record,label="{Concept_US_12|As a farmer  I can refresh the predicted weather\nexist_userStories2features(can refresh the predicted weather)\n|As a farmer  I can refresh the predicted weather\n}"];
+13 [shape=record,label="{Concept_US_13|As a farmer I can CRUD plots\nexist_userStories2features(can CRUD plots)\n|As a farmer I can CRUD plots\n}"];
+22 [shape=record,label="{Concept_US_22|As a admin I can CRUD a farmer\nexist_userStories2features(can CRUD a farmer)\n|As a admin I can CRUD a farmer\n}"];
+23 [shape=record,label="{Concept_US_23|As a admin I can relaunch all failed simulation\nexist_userStories2features(can relaunch all failed simulation)\n|As a admin I can relaunch all failed simulation\n}"];
+48 [shape=record,label="{Concept_US_48|exist_userStories2Roles(farmerwithplot)\nexist_userStories2features(exist_features2AbstracFeatures(plots plot list))\n|}"];
+49 [shape=record,label="{Concept_US_49|exist_userStories2Roles(farmerirrigator)\nexist_userStories2features(exist_features2AbstracFeatures(unit recommendations favorite))\n|}"];
+50 [shape=record,label="{Concept_US_50|exist_userStories2Roles(farmer)\n|}"];
+51 [shape=record,label="{Concept_US_51|exist_userStories2Roles(administrateur)\nexist_userStories2features(exist_features2AbstracFeatures(crud farmer relaunch))\n|}"];
+	14 -> 48
+	15 -> 48
+	16 -> 48
+	17 -> 48
+	18 -> 48
+	19 -> 49
+	20 -> 49
+	21 -> 49
+	12 -> 50
+	13 -> 50
+	48 -> 50
+	49 -> 50
+	22 -> 51
+	23 -> 51
+}
+subgraph roles { 
+label="roles";
+24 [shape=record,label="{Concept_roles_24|farmerwithplot\n|farmerwithplot\n}"];
+25 [shape=record,label="{Concept_roles_25|farmerirrigator\n|farmerirrigator\n}"];
+26 [shape=record,label="{Concept_roles_26|farmer\n|farmer\n}"];
+27 [shape=record,label="{Concept_roles_27|administrateur\n|administrateur\n}"];
+	24 -> 26
+	25 -> 26
+}
+subgraph features { 
+label="features";
+30 [shape=record,label="{Concept_features_30|can edit the parameters of a plot current season\n|can edit the parameters of a plot current season\n}"];
+31 [shape=record,label="{Concept_features_31|can sort my plots in the list\n|can sort my plots in the list\n}"];
+32 [shape=record,label="{Concept_features_32|can filter my plots in the list\n|can filter my plots in the list\n}"];
+33 [shape=record,label="{Concept_features_33|can export observation data for a plot\n|can export observation data for a plot\n}"];
+34 [shape=record,label="{Concept_features_34|know when my plots will be in danger\n|know when my plots will be in danger\n}"];
+35 [shape=record,label="{Concept_features_35|can manage my irrigations and recommendations in my favorite unit\n|can manage my irrigations and recommendations in my favorite unit\n}"];
+36 [shape=record,label="{Concept_features_36|choose my preferred irrigation unit in my user-settings\n|choose my preferred irrigation unit in my user-settings\n}"];
+37 [shape=record,label="{Concept_features_37|can view my irrigation recommendations in my favorite unit\n|can view my irrigation recommendations in my favorite unit\n}"];
+38 [shape=record,label="{Concept_features_38|can CRUD a farmer\n|can CRUD a farmer\n}"];
+39 [shape=record,label="{Concept_features_39|can relaunch all failed simulation\n|can relaunch all failed simulation\n}"];
+28 [shape=record,label="{Concept_features_28|can refresh the predicted weather\nexist_features2AbstracFeatures(refresh predicted weather)\n|can refresh the predicted weather\n}"];
+29 [shape=record,label="{Concept_features_29|can CRUD plots\nexist_features2AbstracFeatures(crud plots)\n|can CRUD plots\n}"];
+52 [shape=record,label="{Concept_features_52|exist_features2AbstracFeatures(plots plot list)\n|}"];
+53 [shape=record,label="{Concept_features_53|exist_features2AbstracFeatures(unit recommendations favorite)\n|}"];
+54 [shape=record,label="{Concept_features_54|exist_features2AbstracFeatures(crud farmer relaunch)\n|}"];
+	30 -> 52
+	31 -> 52
+	32 -> 52
+	33 -> 52
+	34 -> 52
+	35 -> 53
+	36 -> 53
+	37 -> 53
+	38 -> 54
+	39 -> 54
+}
+subgraph clusters { 
+label="clusters";
+40 [shape=record,label="{Concept_clusters_40|refresh predicted weather\n|refresh predicted weather\n}"];
+41 [shape=record,label="{Concept_clusters_41|crud plots\n|crud plots\n}"];
+42 [shape=record,label="{Concept_clusters_42|plots plot list\n|plots plot list\n}"];
+43 [shape=record,label="{Concept_clusters_43|unit recommendations favorite\n|unit recommendations favorite\n}"];
+44 [shape=record,label="{Concept_clusters_44|crud farmer relaunch\n|crud farmer relaunch\n}"];
+}
+}

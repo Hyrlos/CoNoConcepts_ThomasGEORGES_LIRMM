@@ -1,0 +1,13 @@
+features,refresh predicted weather,crud plots,plots plot list,unit recommendations favorite,crud farmer relaunch
+can refresh the predicted weather,x,,,,
+can CRUD plots,,x,,,
+can edit the parameters of a plot current season ,,,x,,
+can sort my plots in the list,,,x,,
+can filter my plots in the list,,,x,,
+can export observation data for a plot,,,x,,
+know when my plots will be in danger,,,x,,
+can manage my irrigations and recommendations in my favorite unit,,,,x,
+choose my preferred irrigation unit in my user-settings,,,,x,
+can view my irrigation recommendations in my favorite unit,,,,x,
+can CRUD a farmer,,,,,x
+can relaunch all failed simulation,,,,,x

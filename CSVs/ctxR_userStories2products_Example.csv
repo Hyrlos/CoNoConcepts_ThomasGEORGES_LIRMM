@@ -1,0 +1,13 @@
+US,Orchard,Vine,Almond
+As a farmer  I can refresh the predicted weather,x,x,
+As a farmer I can CRUD plots,x,x,x
+As a farmer with a plot I can edit the parameters of a plot (current season),x,x,
+As a farmer with a plot I can sort my plots in the list,x,,
+As a farmer with a plot I can filter my plots in the list,x,,
+As a farmer with a plot I can export observation data for a plot,,x,
+As a farmer with a plot I know when my plots will be in danger,x,x,
+As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit,,,x
+As a farmer irrigator I choose my preferred irrigation unit in my user-settings,,x,
+As a farmer irrigator I can view my irrigation recommendations in my favorite unit,,x,x
+As a admin I can CRUD a farmer,x,x,
+As a admin I can relaunch all failed simulation,x,x,x

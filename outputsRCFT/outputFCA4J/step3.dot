@@ -1,0 +1,313 @@
+digraph G { 
+	rankdir=BT;
+subgraph products { 
+label="products";
+4 [shape=record,label="{Concept_products_4|Orchard\nexist_products2UserStories(C_US_16)\nexist_products2UserStories(C_US_17)\n|Orchard\n}"];
+5 [shape=record,label="{Concept_products_5|Vine\nexist_products2UserStories(C_US_18)\nexist_products2UserStories(C_US_21)\n|Vine\n}"];
+6 [shape=record,label="{Concept_products_6|Almond\nexist_products2UserStories(C_US_20)\n|Almond\n}"];
+98 [shape=record,label="{Concept_products_98|exist_products2UserStories(C_US_13)\nexist_products2UserStories(C_US_15)\nexist_products2UserStories(C_US_19)\nexist_products2UserStories(C_US_23)\nexist_products2UserStories(C_US_102)\n|}"];
+99 [shape=record,label="{Concept_products_99|exist_products2UserStories(C_US_14)\nexist_products2UserStories(C_US_24)\nexist_products2UserStories(C_US_101)\nexist_products2UserStories(C_US_104)\n|}"];
+100 [shape=record,label="{Concept_products_100|exist_products2UserStories(C_US_22)\nexist_products2UserStories(C_US_103)\n|}"];
+121 [shape=record,label="{Concept_products_121|exist_products2UserStories(C_US_105)\n|}"];
+	121 -> 4
+	121 -> 5
+	121 -> 6
+	4 -> 98
+	5 -> 98
+	98 -> 99
+	100 -> 99
+	5 -> 100
+	6 -> 100
+}
+subgraph US { 
+label="US";
+13 [shape=record,label="{Concept_US_13|As a farmer  I can refresh the predicted weather\nexist_userStories2features(C_features_29)\n|As a farmer  I can refresh the predicted weather\n}"];
+14 [shape=record,label="{Concept_US_14|As a farmer I can CRUD plots\nexist_userStories2features(C_features_30)\n|As a farmer I can CRUD plots\n}"];
+15 [shape=record,label="{Concept_US_15|As a farmer with a plot I can edit the parameters of a plot (current season)\nexist_userStories2features(C_features_31)\n|As a farmer with a plot I can edit the parameters of a plot (current season)\n}"];
+16 [shape=record,label="{Concept_US_16|As a farmer with a plot I can sort my plots in the list\nexist_userStories2features(C_features_32)\n|As a farmer with a plot I can sort my plots in the list\n}"];
+17 [shape=record,label="{Concept_US_17|As a farmer with a plot I can filter my plots in the list\nexist_userStories2features(C_features_33)\n|As a farmer with a plot I can filter my plots in the list\n}"];
+18 [shape=record,label="{Concept_US_18|As a farmer with a plot I can export observation data for a plot\nexist_userStories2features(C_features_34)\n|As a farmer with a plot I can export observation data for a plot\n}"];
+19 [shape=record,label="{Concept_US_19|As a farmer with a plot I know when my plots will be in danger\nexist_userStories2features(C_features_35)\n|As a farmer with a plot I know when my plots will be in danger\n}"];
+20 [shape=record,label="{Concept_US_20|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit\nexist_userStories2features(C_features_36)\n|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit\n}"];
+21 [shape=record,label="{Concept_US_21|As a farmer irrigator I choose my preferred irrigation unit in my user-settings\nexist_userStories2features(C_features_37)\n|As a farmer irrigator I choose my preferred irrigation unit in my user-settings\n}"];
+22 [shape=record,label="{Concept_US_22|As a farmer irrigator I can view my irrigation recommendations in my favorite unit\nexist_userStories2features(C_features_38)\n|As a farmer irrigator I can view my irrigation recommendations in my favorite unit\n}"];
+23 [shape=record,label="{Concept_US_23|As a admin I can CRUD a farmer\nexist_userStories2features(C_features_39)\n|As a admin I can CRUD a farmer\n}"];
+24 [shape=record,label="{Concept_US_24|As a admin I can relaunch all failed simulation\nexist_userStories2features(C_features_40)\n|As a admin I can relaunch all failed simulation\n}"];
+101 [shape=record,label="{Concept_US_101|exist_userStories2Roles(C_roles_25)\n|}"];
+102 [shape=record,label="{Concept_US_102|exist_userStories2Roles(C_roles_26)\nexist_userStories2features(C_features_106)\n|}"];
+103 [shape=record,label="{Concept_US_103|exist_userStories2Roles(C_roles_27)\nexist_userStories2features(C_features_107)\n|}"];
+104 [shape=record,label="{Concept_US_104|exist_userStories2Roles(C_roles_28)\nexist_userStories2features(C_features_108)\n|}"];
+105 [shape=record,label="{Concept_US_105|exist_userStories2mrs(C_mrs_41)\nexist_userStories2mrs(C_mrs_42)\nexist_userStories2mrs(C_mrs_43)\nexist_userStories2mrs(C_mrs_44)\nexist_userStories2mrs(C_mrs_45)\nexist_userStories2mrs(C_mrs_46)\nexist_userStories2mrs(C_mrs_47)\nexist_userStories2mrs(C_mrs_48)\nexist_userStories2mrs(C_mrs_49)\nexist_userStories2mrs(C_mrs_50)\nexist_userStories2mrs(C_mrs_51)\nexist_userStories2mrs(C_mrs_52)\nexist_userStories2mrs(C_mrs_109)\nexist_userStories2mrs(C_mrs_110)\nexist_userStories2mrs(C_mrs_122)\nexist_userStories2mrs(C_mrs_123)\nexist_userStories2mrs(C_mrs_124)\nexist_userStories2mrs(C_mrs_125)\nexist_userStories2mrs(C_mrs_126)\nexist_userStories2mrs(C_mrs_127)\nexist_userStories2mrs(C_mrs_128)\nexist_userStories2mrs(C_mrs_129)\nexist_userStories2mrs(C_mrs_130)\nexist_userStories2mrs(C_mrs_131)\n|}"];
+	105 -> 13
+	105 -> 14
+	105 -> 15
+	105 -> 16
+	105 -> 17
+	105 -> 18
+	105 -> 19
+	105 -> 20
+	105 -> 21
+	105 -> 22
+	105 -> 23
+	105 -> 24
+	13 -> 101
+	14 -> 101
+	102 -> 101
+	103 -> 101
+	15 -> 102
+	16 -> 102
+	17 -> 102
+	18 -> 102
+	19 -> 102
+	20 -> 103
+	21 -> 103
+	22 -> 103
+	23 -> 104
+	24 -> 104
+}
+subgraph roles { 
+label="roles";
+25 [shape=record,label="{Concept_roles_25|farmer\n|farmer\n}"];
+26 [shape=record,label="{Concept_roles_26|farmerwithplot\n|farmerwithplot\n}"];
+27 [shape=record,label="{Concept_roles_27|farmerirrigator\n|farmerirrigator\n}"];
+28 [shape=record,label="{Concept_roles_28|administrator\n|administrator\n}"];
+	26 -> 25
+	27 -> 25
+}
+subgraph features { 
+label="features";
+29 [shape=record,label="{Concept_features_29|can refresh the predicted weather\nexist_features2AbstracFeatures(C_clusters_93)\n|can refresh the predicted weather\n}"];
+30 [shape=record,label="{Concept_features_30|can CRUD plots\nexist_features2AbstracFeatures(C_clusters_94)\n|can CRUD plots\n}"];
+31 [shape=record,label="{Concept_features_31|can edit the parameters of a plot current season\n|can edit the parameters of a plot current season\n}"];
+32 [shape=record,label="{Concept_features_32|can sort my plots in the list\n|can sort my plots in the list\n}"];
+33 [shape=record,label="{Concept_features_33|can filter my plots in the list\n|can filter my plots in the list\n}"];
+34 [shape=record,label="{Concept_features_34|can export observation data for a plot\n|can export observation data for a plot\n}"];
+35 [shape=record,label="{Concept_features_35|know when my plots will be in danger\n|know when my plots will be in danger\n}"];
+36 [shape=record,label="{Concept_features_36|can manage my irrigations and recommendations in my favorite unit\n|can manage my irrigations and recommendations in my favorite unit\n}"];
+37 [shape=record,label="{Concept_features_37|choose my preferred irrigation unit in my user-settings\n|choose my preferred irrigation unit in my user-settings\n}"];
+38 [shape=record,label="{Concept_features_38|can view my irrigation recommendations in my favorite unit\n|can view my irrigation recommendations in my favorite unit\n}"];
+39 [shape=record,label="{Concept_features_39|can CRUD a farmer\n|can CRUD a farmer\n}"];
+40 [shape=record,label="{Concept_features_40|can relaunch all failed simulation\n|can relaunch all failed simulation\n}"];
+106 [shape=record,label="{Concept_features_106|exist_features2AbstracFeatures(C_clusters_95)\n|}"];
+107 [shape=record,label="{Concept_features_107|exist_features2AbstracFeatures(C_clusters_96)\n|}"];
+108 [shape=record,label="{Concept_features_108|exist_features2AbstracFeatures(C_clusters_97)\n|}"];
+	31 -> 106
+	32 -> 106
+	33 -> 106
+	34 -> 106
+	35 -> 106
+	36 -> 107
+	37 -> 107
+	38 -> 107
+	39 -> 108
+	40 -> 108
+}
+subgraph mrs { 
+label="mrs";
+41 [shape=record,label="{Concept_mrs_41|1\n|}"];
+42 [shape=record,label="{Concept_mrs_42|12\nexist_mrs2changes(C_changes_75)\nexist_mrs2changes(C_changes_76)\n|12\n}"];
+43 [shape=record,label="{Concept_mrs_43|2\n|}"];
+44 [shape=record,label="{Concept_mrs_44|3\nexist_mrs2changes(C_changes_57)\nexist_mrs2changes(C_changes_58)\n|3\n}"];
+45 [shape=record,label="{Concept_mrs_45|4\nexist_mrs2changes(C_changes_59)\nexist_mrs2changes(C_changes_60)\n|4\n}"];
+46 [shape=record,label="{Concept_mrs_46|5\nexist_mrs2changes(C_changes_61)\nexist_mrs2changes(C_changes_62)\n|5\n}"];
+47 [shape=record,label="{Concept_mrs_47|6\nexist_mrs2changes(C_changes_63)\nexist_mrs2changes(C_changes_64)\n|6\n}"];
+48 [shape=record,label="{Concept_mrs_48|7\nexist_mrs2changes(C_changes_65)\nexist_mrs2changes(C_changes_66)\n|7\n}"];
+49 [shape=record,label="{Concept_mrs_49|8\nexist_mrs2changes(C_changes_67)\nexist_mrs2changes(C_changes_68)\n|8\n}"];
+50 [shape=record,label="{Concept_mrs_50|9\nexist_mrs2changes(C_changes_69)\nexist_mrs2changes(C_changes_70)\n|9\n}"];
+51 [shape=record,label="{Concept_mrs_51|10\nexist_mrs2changes(C_changes_71)\nexist_mrs2changes(C_changes_72)\n|10\n}"];
+52 [shape=record,label="{Concept_mrs_52|11\nexist_mrs2changes(C_changes_73)\nexist_mrs2changes(C_changes_74)\n|11\n}"];
+109 [shape=record,label="{Concept_mrs_109|exist_mrs2changes(C_changes_53)\nexist_mrs2changes(C_changes_54)\n|1\n}"];
+110 [shape=record,label="{Concept_mrs_110|exist_mrs2changes(C_changes_55)\nexist_mrs2changes(C_changes_56)\n|2\n}"];
+122 [shape=record,label="{Concept_mrs_122|exist_mrs2changes(C_changes_111)\n|}"];
+123 [shape=record,label="{Concept_mrs_123|exist_mrs2changes(C_changes_112)\n|}"];
+124 [shape=record,label="{Concept_mrs_124|exist_mrs2changes(C_changes_113)\n|}"];
+125 [shape=record,label="{Concept_mrs_125|exist_mrs2changes(C_changes_114)\n|}"];
+126 [shape=record,label="{Concept_mrs_126|exist_mrs2changes(C_changes_115)\n|}"];
+127 [shape=record,label="{Concept_mrs_127|exist_mrs2changes(C_changes_116)\n|}"];
+128 [shape=record,label="{Concept_mrs_128|exist_mrs2changes(C_changes_117)\n|}"];
+129 [shape=record,label="{Concept_mrs_129|exist_mrs2changes(C_changes_118)\n|}"];
+130 [shape=record,label="{Concept_mrs_130|exist_mrs2changes(C_changes_119)\n|}"];
+131 [shape=record,label="{Concept_mrs_131|exist_mrs2changes(C_changes_120)\n|}"];
+	51 -> 41
+	123 -> 41
+	125 -> 41
+	130 -> 42
+	42 -> 43
+	110 -> 43
+	130 -> 44
+	130 -> 45
+	130 -> 46
+	130 -> 47
+	130 -> 48
+	130 -> 49
+	130 -> 50
+	130 -> 51
+	130 -> 52
+	130 -> 109
+	130 -> 110
+	44 -> 122
+	110 -> 122
+	127 -> 122
+	42 -> 123
+	52 -> 123
+	49 -> 124
+	51 -> 124
+	42 -> 125
+	109 -> 125
+	44 -> 126
+	52 -> 126
+	109 -> 126
+	110 -> 126
+	45 -> 127
+	46 -> 127
+	50 -> 128
+	124 -> 128
+	46 -> 129
+	47 -> 129
+	48 -> 129
+	49 -> 129
+	50 -> 129
+	52 -> 129
+	109 -> 129
+	41 -> 131
+	43 -> 131
+	47 -> 131
+	48 -> 131
+	50 -> 131
+	122 -> 131
+	126 -> 131
+}
+subgraph changes { 
+label="changes";
+53 [shape=record,label="{Concept_changes_53|-1231036708525091317\n|-1231036708525091317\n}"];
+54 [shape=record,label="{Concept_changes_54|1654117655041395405\n|1654117655041395405\n}"];
+55 [shape=record,label="{Concept_changes_55|-8140185372168949735\n|-8140185372168949735\n}"];
+56 [shape=record,label="{Concept_changes_56|-7578569360430681020\n|-7578569360430681020\n}"];
+57 [shape=record,label="{Concept_changes_57|-6210906903131101711\n|-6210906903131101711\n}"];
+58 [shape=record,label="{Concept_changes_58|4653916694585383103\n|4653916694585383103\n}"];
+59 [shape=record,label="{Concept_changes_59|7626570432376237277\n|7626570432376237277\n}"];
+60 [shape=record,label="{Concept_changes_60|5456234796663781104\n|5456234796663781104\n}"];
+61 [shape=record,label="{Concept_changes_61|6858191971573673581\n|6858191971573673581\n}"];
+62 [shape=record,label="{Concept_changes_62|-1891152919143645387\n|-1891152919143645387\n}"];
+63 [shape=record,label="{Concept_changes_63|-3666159177389752702\nexist_changes2filenames(C_filenames_83)\n|-3666159177389752702\n}"];
+64 [shape=record,label="{Concept_changes_64|-7228008791841010171\nexist_changes2filenames(C_filenames_87)\n|-7228008791841010171\n}"];
+65 [shape=record,label="{Concept_changes_65|-3558488941656624916\nexist_changes2filenames(C_filenames_80)\n|-3558488941656624916\n}"];
+66 [shape=record,label="{Concept_changes_66|2915688842901959771\nexist_changes2filenames(C_filenames_88)\n|2915688842901959771\n}"];
+67 [shape=record,label="{Concept_changes_67|-228842093468664764\n|-228842093468664764\n}"];
+68 [shape=record,label="{Concept_changes_68|-1617327935411577901\n|-1617327935411577901\n}"];
+69 [shape=record,label="{Concept_changes_69|-6101322863306403565\n|-6101322863306403565\n}"];
+70 [shape=record,label="{Concept_changes_70|5240010633308069961\nexist_changes2filenames(C_filenames_77)\n|5240010633308069961\n}"];
+71 [shape=record,label="{Concept_changes_71|-4035911635522489696\n|-4035911635522489696\n}"];
+72 [shape=record,label="{Concept_changes_72|3423575916162369124\n|3423575916162369124\n}"];
+73 [shape=record,label="{Concept_changes_73|7563477815011409743\n|7563477815011409743\n}"];
+74 [shape=record,label="{Concept_changes_74|2259364940370211402\n|2259364940370211402\n}"];
+75 [shape=record,label="{Concept_changes_75|-2116999223241342497\n|-2116999223241342497\n}"];
+76 [shape=record,label="{Concept_changes_76|5543621051904433473\n|5543621051904433473\n}"];
+111 [shape=record,label="{Concept_changes_111|exist_changes2filenames(C_filenames_78)\n|}"];
+112 [shape=record,label="{Concept_changes_112|exist_changes2filenames(C_filenames_79)\n|}"];
+113 [shape=record,label="{Concept_changes_113|exist_changes2filenames(C_filenames_81)\n|}"];
+114 [shape=record,label="{Concept_changes_114|exist_changes2filenames(C_filenames_82)\n|}"];
+115 [shape=record,label="{Concept_changes_115|exist_changes2filenames(C_filenames_84)\n|}"];
+116 [shape=record,label="{Concept_changes_116|exist_changes2filenames(C_filenames_85)\n|}"];
+117 [shape=record,label="{Concept_changes_117|exist_changes2filenames(C_filenames_86)\n|}"];
+118 [shape=record,label="{Concept_changes_118|exist_changes2diffs(C_editTypes_89)\n|}"];
+119 [shape=record,label="{Concept_changes_119|exist_changes2diffs(C_editTypes_90)\nexist_changes2diffs(C_editTypes_91)\n|}"];
+120 [shape=record,label="{Concept_changes_120|exist_changes2diffs(C_editTypes_92)\n|}"];
+	119 -> 53
+	119 -> 54
+	119 -> 55
+	119 -> 56
+	119 -> 57
+	119 -> 58
+	119 -> 59
+	119 -> 60
+	119 -> 61
+	119 -> 62
+	119 -> 63
+	119 -> 64
+	119 -> 65
+	119 -> 66
+	119 -> 67
+	119 -> 68
+	119 -> 69
+	119 -> 70
+	119 -> 71
+	119 -> 72
+	119 -> 73
+	119 -> 74
+	119 -> 75
+	119 -> 76
+	56 -> 111
+	58 -> 111
+	60 -> 111
+	62 -> 111
+	116 -> 111
+	74 -> 112
+	76 -> 112
+	68 -> 113
+	72 -> 113
+	54 -> 114
+	75 -> 114
+	53 -> 115
+	55 -> 115
+	57 -> 115
+	73 -> 115
+	59 -> 116
+	61 -> 116
+	67 -> 117
+	69 -> 117
+	71 -> 117
+	54 -> 118
+	61 -> 118
+	63 -> 118
+	65 -> 118
+	67 -> 118
+	68 -> 118
+	70 -> 118
+	74 -> 118
+	56 -> 120
+	58 -> 120
+	59 -> 120
+	60 -> 120
+	62 -> 120
+	64 -> 120
+	66 -> 120
+	69 -> 120
+	71 -> 120
+	72 -> 120
+	75 -> 120
+	76 -> 120
+	115 -> 120
+}
+subgraph filenames { 
+label="filenames";
+77 [shape=record,label="{Concept_filenames_77|src/user-settings\n|src/user-settings\n}"];
+78 [shape=record,label="{Concept_filenames_78|src/plot\n|src/plot\n}"];
+79 [shape=record,label="{Concept_filenames_79|src/admin\n|src/admin\n}"];
+80 [shape=record,label="{Concept_filenames_80|src/danger\n|src/danger\n}"];
+81 [shape=record,label="{Concept_filenames_81|src/recommendation\n|src/recommendation\n}"];
+82 [shape=record,label="{Concept_filenames_82|src/weather\n|src/weather\n}"];
+83 [shape=record,label="{Concept_filenames_83|src/export\n|src/export\n}"];
+84 [shape=record,label="{Concept_filenames_84|src/farmer\n|src/farmer\n}"];
+85 [shape=record,label="{Concept_filenames_85|src/plotList\n|src/plotList\n}"];
+86 [shape=record,label="{Concept_filenames_86|src/irrigation\n|src/irrigation\n}"];
+87 [shape=record,label="{Concept_filenames_87|src/observation\n|src/observation\n}"];
+88 [shape=record,label="{Concept_filenames_88|src/alert\n|src/alert\n}"];
+	85 -> 78
+}
+subgraph editTypes { 
+label="editTypes";
+89 [shape=record,label="{Concept_editTypes_89|new_file\n|new_file\n}"];
+90 [shape=record,label="{Concept_editTypes_90|renamed_file\n|renamed_file\n}"];
+91 [shape=record,label="{Concept_editTypes_91|deleted_file\n|deleted_file\n}"];
+92 [shape=record,label="{Concept_editTypes_92|edited_file\n|edited_file\n}"];
+}
+subgraph clusters { 
+label="clusters";
+93 [shape=record,label="{Concept_clusters_93|refresh predicted weather\n|refresh predicted weather\n}"];
+94 [shape=record,label="{Concept_clusters_94|crud plots\n|crud plots\n}"];
+95 [shape=record,label="{Concept_clusters_95|plots plot list\n|plots plot list\n}"];
+96 [shape=record,label="{Concept_clusters_96|unit recommendations favorite\n|unit recommendations favorite\n}"];
+97 [shape=record,label="{Concept_clusters_97|crud farmer relaunch\n|crud farmer relaunch\n}"];
+}
+}

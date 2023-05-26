@@ -1,0 +1,13 @@
+,features
+0,can refresh the predicted weather
+1,can CRUD plots
+2,can edit the parameters of a plot current season 
+3,can sort my plots in the list
+4,can filter my plots in the list
+5,can export observation data for a plot
+6,know when my plots will be in danger
+7,can manage my irrigations and recommendations in my favorite unit
+8,choose my preferred irrigation unit in my user-settings
+9,can view my irrigation recommendations in my favorite unit
+10,can CRUD a farmer
+11,can relaunch all failed simulation
