@@ -21,7 +21,7 @@ Two kind of feature representations:
 User-stories are used to identify the roles, features and create abstract features. They are the nodes and the leafs on the outputs models.  
 The relations between the nodes and leafs are computed with FCA and RCA.
 
-![processCono.png](attachment:processCono.png)
+![processCono](https://github.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/assets/36265996/0b6c5e7a-22dc-4f34-98ff-0e4554f9535d)
 
 **Formal Concept Analysis:**  
 Each object from Version Control System is represented with a Formal Context:   
