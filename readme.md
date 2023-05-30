@@ -1,7 +1,9 @@
-**Objective**  
-Provide an automated process for feature models synthesis using Formal Concept Analysis and Relationnal Concept Analysis by leveraging User-stories and code merge.
+## Readme
+**Objective**   
+Provide an automated process for feature models synthesis using Formal Concept Analysis and Relationnal Concept Analysis by leveraging User-stories and code merges.
+All the source code is available in a [Github repository](https://github.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM)
 
-**Inputs:**
+**Inputs:**  
 - Dataset extracted from Github or Gitlab:
   - User-stories title and request anwser
   - The user-stories related products
@@ -10,16 +12,19 @@ Provide an automated process for feature models synthesis using Formal Concept A
   - The changes related Files
   - The changes related Code Diff
   
-**Outputs:**
-- Feature model
-- Feature role model  
+**Outputs:**  
+Two kind of feature representations:
+- *Feature model*: a hierarchical diagram that visually illustrates the features, and their dependencies
+- *Feature role model*: a feature model hierarchized by roles
 
 **Process:**  
 User-stories are used to identify the roles, features and create abstract features. They are the nodes and the leafs on the outputs models.  
 The relations between the nodes and leafs are computed with FCA and RCA.
 
+![processCono.png](attachment:processCono.png)
+
 **Formal Concept Analysis:**  
-Each object from VCS is represented with a Formal Context:   
+Each object from Version Control System is represented with a Formal Context:   
 - User-stories
 - Products
 - Roles
@@ -31,7 +36,7 @@ Each object from VCS is represented with a Formal Context:
 - Abstract features
 
 **Relationnal Concept Analysis**  
-The relations between each objects are in there related Relationnal Concepts:  
+The relations between each objects are in their related Relationnal Concepts:  
 - Products x User-stories  
 - User-stories x Roles
 - User-stories x Features
@@ -41,7 +46,7 @@ The relations between each objects are in there related Relationnal Concepts:
 - Changes x Code diffs
 
 **Tools:**
-- FCA4J to perform Formal concept analysis
-- RCFT file extension for FCA and RCA data representation
+- [FCA4J](https://www.lirmm.fr/fca4j/Introduction.html) to perform Formal concept analysis
+- [RCFT](https://www.lirmm.fr/fca4j/Family.html) file extension for FCA and RCA data representation
+- [FeatureIDE](https://featureide.github.io/) for Feature Models vizualisation
 - Elbows, Kmeans and Word2Vec for Clustering 
-- FeatureIDE for Feature Models vizualisation
