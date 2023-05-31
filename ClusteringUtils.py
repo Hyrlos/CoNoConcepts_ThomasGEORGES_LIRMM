@@ -84,7 +84,7 @@ def clustering(feature_vectors, features, n_clusters=5):
 
 import collections
 import nltk
-nltk.download('stopwords')
+nltk.download('stopwords', quiet=True)
 from nltk.corpus import stopwords
 
 def generate_cluster_names(clusters, num_keywords=3):
