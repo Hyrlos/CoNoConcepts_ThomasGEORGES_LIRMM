@@ -1,6 +1,7 @@
 ## Readme
+
 **Objective**   
-Provide an automated process for feature models synthesis using Formal Concept Analysis and Relationnal Concept Analysis by leveraging User-stories and code merges.
+Provide an automated process for feature models synthesis using Formal Concept Analysis and Relational Concept Analysis by leveraging User-stories and code merges.
 All the source code is available in a [Github repository](https://github.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM)
 
 **Inputs:**  
@@ -21,7 +22,13 @@ Two kind of feature representations:
 User-stories are used to identify the roles, features and create abstract features. They are the nodes and the leafs on the outputs models.  
 The relations between the nodes and leafs are computed with FCA and RCA.
 
+![UStoFM.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/UStoFM.png)
+
+**Big picture**
 ![processCono.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/processCono.png)
+
+**FCA and RCA Model**  
+![USFeatureFCA.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/USFeatureFCA.png)
 
 **Formal Concept Analysis:**  
 Each object from Version Control System is represented with a Formal Context:   
@@ -35,8 +42,8 @@ Each object from Version Control System is represented with a Formal Context:
 - Files
 - Abstract features
 
-**Relationnal Concept Analysis**  
-The relations between each objects are in their related Relationnal Concepts:  
+**Relational Concept Analysis**  
+The relations between each objects are in their related Relational Concepts:  
 - Products x User-stories  
 - User-stories x Roles
 - User-stories x Features
@@ -50,7 +57,6 @@ The relations between each objects are in their related Relationnal Concepts:
 - [RCFT](https://www.lirmm.fr/fca4j/Family.html) file extension for FCA and RCA data representation
 - [FeatureIDE](https://featureide.github.io/) for Feature Models vizualisation
 - Elbows, Kmeans and Word2Vec for Clustering 
-
 
 ### Input:
 
