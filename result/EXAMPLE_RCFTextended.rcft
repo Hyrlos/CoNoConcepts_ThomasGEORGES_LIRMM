@@ -1,0 +1,274 @@
+FormalContext products
+||Orchard|Almond|Vine|exist_products2UserStories(As a farmer  I can refresh the predicted weather)|exist_products2UserStories(As a farmer I can CRUD plots)|exist_products2UserStories(As a farmer with a plot I can edit the parameters of a plot (current season))|exist_products2UserStories(As a farmer with a plot I can sort my plots in the list)|exist_products2UserStories(As a farmer with a plot I can filter my plots in the list)|exist_products2UserStories(As a farmer with a plot I can export observation data for a plot)|exist_products2UserStories(As a farmer with a plot I know when my plots will be in danger)|exist_products2UserStories(As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit)|exist_products2UserStories(As a farmer irrigator I choose my preferred irrigation unit in my user-settings)|exist_products2UserStories(As a farmer irrigator I can view my irrigation recommendations in my favorite unit)|exist_products2UserStories(As a admin I can CRUD a farmer)|exist_products2UserStories(As a admin I can relaunch all failed simulation)|exist_products2UserStories(exist_userStories2mrs(12)&exist_userStories2mrs(10)&exist_userStories2mrs(11)&exist_userStories2mrs(1)&exist_userStories2mrs(2)&exist_userStories2mrs(3)&exist_userStories2mrs(4)&exist_userStories2mrs(5)&exist_userStories2mrs(6)&exist_userStories2mrs(7)&exist_userStories2mrs(8)&exist_userStories2mrs(9))|exist_products2UserStories(exist_userStories2Roles(farmerwithplot))|exist_products2UserStories(exist_userStories2Roles(farmerirrigator))|exist_products2UserStories(exist_userStories2Roles(farmer))|exist_products2UserStories(exist_userStories2Roles(administrator))|
+|Orchard|x|||x|x|x|x|x||x||||x|x||x||x|x|
+|Almond||x|||x||||||x||x||x|||x|x|x|
+|Vine|||x|x|x|x|||x|x||x|x|x|x||x|x|x|x|
+
+FormalContext US
+||As a farmer  I can refresh the predicted weather|As a farmer I can CRUD plots|As a farmer with a plot I can edit the parameters of a plot (current season)|As a farmer with a plot I can sort my plots in the list|As a farmer with a plot I can filter my plots in the list|As a farmer with a plot I can export observation data for a plot|As a farmer with a plot I know when my plots will be in danger|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit|As a farmer irrigator I choose my preferred irrigation unit in my user-settings|As a farmer irrigator I can view my irrigation recommendations in my favorite unit|As a admin I can CRUD a farmer|As a admin I can relaunch all failed simulation|exist_userStories2Roles(farmerwithplot)|exist_userStories2Roles(farmerirrigator)|exist_userStories2Roles(farmer)|exist_userStories2Roles(administrator)|exist_userStories2features(can refresh the predicted weather)|exist_userStories2features(can CRUD plots)|exist_userStories2features(can edit the parameters of a plot current season)|exist_userStories2features(can sort my plots in the list)|exist_userStories2features(can filter my plots in the list)|exist_userStories2features(can export observation data for a plot)|exist_userStories2features(know when my plots will be in danger)|exist_userStories2features(can manage my irrigations and recommendations in my favorite unit)|exist_userStories2features(choose my preferred irrigation unit in my user-settings)|exist_userStories2features(can view my irrigation recommendations in my favorite unit)|exist_userStories2features(can CRUD a farmer)|exist_userStories2features(can relaunch all failed simulation)|exist_userStories2mrs(12)|exist_userStories2mrs(10)|exist_userStories2mrs(11)|exist_userStories2mrs(1)|exist_userStories2mrs(2)|exist_userStories2mrs(3)|exist_userStories2mrs(4)|exist_userStories2mrs(5)|exist_userStories2mrs(6)|exist_userStories2mrs(7)|exist_userStories2mrs(8)|exist_userStories2mrs(9)|exist_userStories2features(exist_features2AbstracFeatures(plots plot list))|exist_userStories2features(exist_features2AbstracFeatures(unit recommendations favorite))|exist_userStories2features(exist_features2AbstracFeatures(crud farmer relaunch))|exist_userStories2mrs(exist_mrs2changes(762370063873822982)&exist_mrs2changes(2013845107719879822))|exist_userStories2mrs(exist_mrs2changes(-6845893734383208364)&exist_mrs2changes(2354241747147181138))|exist_userStories2mrs(exist_mrs2changes(exist_changes2diffs(renamed_file)&exist_changes2diffs(deleted_file)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/plotList)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/admin)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/weather)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/farmer)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/plot)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/recommendation)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2diffs(edited_file)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2diffs(new_file)))|exist_userStories2mrs(exist_mrs2changes(exist_changes2filenames(src/irrigation)))|
+|As a farmer  I can refresh the predicted weather|x||||||||||||||x||x|||||||||||||||||||||||||||||||||||||||
+|As a farmer I can CRUD plots||x|||||||||||||x|||x||||||||||||||||||||||||||||||||||||||
+|As a farmer with a plot I can edit the parameters of a plot (current season)|||x||||||||||x||x||||x||||||||||||||||||||||x|||||||||||||||
+|As a farmer with a plot I can sort my plots in the list||||x|||||||||x||x|||||x|||||||||||||||||||||x|||||||||||||||
+|As a farmer with a plot I can filter my plots in the list|||||x||||||||x||x||||||x||||||||||||||||||||x|||||||||||||||
+|As a farmer with a plot I can export observation data for a plot||||||x|||||||x||x|||||||x|||||||||||||||||||x|||||||||||||||
+|As a farmer with a plot I know when my plots will be in danger|||||||x||||||x||x||||||||x||||||||||||||||||x|||||||||||||||
+|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit||||||||x||||||x|x|||||||||x||||||||||||||||||x||||||||||||||
+|As a farmer irrigator I choose my preferred irrigation unit in my user-settings|||||||||x|||||x|x||||||||||x|||||||||||||||||x||||||||||||||
+|As a farmer irrigator I can view my irrigation recommendations in my favorite unit||||||||||x||||x|x|||||||||||x||||||||||||||||x||||||||||||||
+|As a admin I can CRUD a farmer|||||||||||x|||||x|||||||||||x||||||||||||||||x|||||||||||||
+|As a admin I can relaunch all failed simulation||||||||||||x||||x||||||||||||x|||||||||||||||x|||||||||||||
+
+FormalContext roles
+||farmer|farmerwithplot|farmerirrigator|administrator|
+|farmer|x||||
+|farmerwithplot|x|x|||
+|farmerirrigator|x||x||
+|administrator||||x|
+
+FormalContext features
+||can refresh the predicted weather|can CRUD plots|can edit the parameters of a plot current season|can sort my plots in the list|can filter my plots in the list|can export observation data for a plot|know when my plots will be in danger|can manage my irrigations and recommendations in my favorite unit|choose my preferred irrigation unit in my user-settings|can view my irrigation recommendations in my favorite unit|can CRUD a farmer|can relaunch all failed simulation|exist_features2AbstracFeatures(refresh predicted weather)|exist_features2AbstracFeatures(crud plots)|exist_features2AbstracFeatures(plots plot list)|exist_features2AbstracFeatures(unit recommendations favorite)|exist_features2AbstracFeatures(crud farmer relaunch)|
+|can refresh the predicted weather|x||||||||||||x|||||
+|can CRUD plots||x||||||||||||x||||
+|can edit the parameters of a plot current season|||x||||||||||||x|||
+|can sort my plots in the list||||x|||||||||||x|||
+|can filter my plots in the list|||||x||||||||||x|||
+|can export observation data for a plot||||||x|||||||||x|||
+|know when my plots will be in danger|||||||x||||||||x|||
+|can manage my irrigations and recommendations in my favorite unit||||||||x||||||||x||
+|choose my preferred irrigation unit in my user-settings|||||||||x|||||||x||
+|can view my irrigation recommendations in my favorite unit||||||||||x||||||x||
+|can CRUD a farmer|||||||||||x||||||x|
+|can relaunch all failed simulation||||||||||||x|||||x|
+
+FormalContext mrs
+||1|2|3|4|5|6|7|8|9|10|11|12|exist_mrs2changes(762370063873822982)|exist_mrs2changes(2013845107719879822)|exist_mrs2changes(-6845893734383208364)|exist_mrs2changes(2354241747147181138)|exist_mrs2changes(-5921696810744496784)|exist_mrs2changes(-5637045100057961814)|exist_mrs2changes(-7072470365386866477)|exist_mrs2changes(678907345253714712)|exist_mrs2changes(6485002724220797275)|exist_mrs2changes(1231590037910604010)|exist_mrs2changes(-8626457832150297401)|exist_mrs2changes(-6532235692255975769)|exist_mrs2changes(1309428287814460503)|exist_mrs2changes(-2361689441167315675)|exist_mrs2changes(1859600636541544962)|exist_mrs2changes(4392746290174839510)|exist_mrs2changes(8612208252073780035)|exist_mrs2changes(-4573193132854164117)|exist_mrs2changes(-2046056796435610876)|exist_mrs2changes(-1560880583632011625)|exist_mrs2changes(-9087347948894523908)|exist_mrs2changes(5779330553623749495)|exist_mrs2changes(1202233618030231494)|exist_mrs2changes(681885582466137227)|exist_mrs2changes(exist_changes2diffs(renamed_file)&exist_changes2diffs(deleted_file))|exist_mrs2changes(exist_changes2filenames(src/farmer))|exist_mrs2changes(exist_changes2filenames(src/plotList))|exist_mrs2changes(exist_changes2diffs(edited_file))|exist_mrs2changes(exist_changes2diffs(new_file))|exist_mrs2changes(exist_changes2filenames(src/plot))|exist_mrs2changes(exist_changes2filenames(src/irrigation))|exist_mrs2changes(exist_changes2filenames(src/admin))|exist_mrs2changes(exist_changes2filenames(src/weather))|exist_mrs2changes(exist_changes2filenames(src/recommendation))|
+|1|x||||||||||||x|x||||||||||||||||||||||||x||x|x||||x||
+|2||x|||||||||||||x|x||||||||||||||||||||||x||x||x|||||
+|3|||x||||||||||||||x|x||||||||||||||||||||x||x||x|||||
+|4||||x|||||||||||||||x|x|||||||||||||||||||x|x||x|||||
+|5|||||x||||||||||||||||x|x|||||||||||||||||x|x|x|x|||||
+|6||||||x|||||||||||||||||x|x||||||||||||||||x|x||||||
+|7|||||||x||||||||||||||||||x|x||||||||||||||x|x||||||
+|8||||||||x|||||||||||||||||||x|x|||||||||||||x||x|||x|
+|9|||||||||x||||||||||||||||||||x|x||||||||||x|x||x||||
+|10|x|||||||||x|||||||||||||||||||||x|x||||||||x|||x|||x|
+|11|x||||||||||x||||||||||||||||||||||x|x||||x||x|x|||x|||
+|12|x|x||||||||||x|||||||||||||||||||||||x|x||||x||||x|x||
+
+FormalContext changes
+||762370063873822982|2013845107719879822|-6845893734383208364|2354241747147181138|-5921696810744496784|-5637045100057961814|-7072470365386866477|678907345253714712|6485002724220797275|1231590037910604010|-8626457832150297401|-6532235692255975769|1309428287814460503|-2361689441167315675|1859600636541544962|4392746290174839510|8612208252073780035|-4573193132854164117|-2046056796435610876|-1560880583632011625|-9087347948894523908|5779330553623749495|1202233618030231494|681885582466137227|exist_changes2filenames(src/plotList)|exist_changes2filenames(src/user-settings)|exist_changes2filenames(src/plot)|exist_changes2filenames(src/admin)|exist_changes2filenames(src/weather)|exist_changes2filenames(src/export)|exist_changes2filenames(src/alert)|exist_changes2filenames(src/farmer)|exist_changes2filenames(src/recommendation)|exist_changes2filenames(src/observation)|exist_changes2filenames(src/irrigation)|exist_changes2filenames(src/danger)|exist_changes2diffs(new_file)|exist_changes2diffs(renamed_file)|exist_changes2diffs(deleted_file)|exist_changes2diffs(edited_file)|
+|762370063873822982|x|||||||||||||||||||||||||||||||x||||||||x|
+|2013845107719879822||x|||||||||||||||||||||||||||x||||||||x||||
+|-6845893734383208364|||x|||||||||||||||||||||||||||||x||||||||x|
+|2354241747147181138||||x|||||||||||||||||||||||x|||||||||||||x|
+|-5921696810744496784|||||x|||||||||||||||||||||||||||x||||||||x|
+|-5637045100057961814||||||x|||||||||||||||||||||x|||||||||||||x|
+|-7072470365386866477|||||||x||||||||||||||||||x||x|||||||||||||x|
+|678907345253714712||||||||x|||||||||||||||||||x|||||||||||||x|
+|6485002724220797275|||||||||x||||||||||||||||x||x||||||||||x||||
+|1231590037910604010||||||||||x|||||||||||||||||x|||||||||||||x|
+|-8626457832150297401|||||||||||x|||||||||||||||||||x|||||||x||||
+|-6532235692255975769||||||||||||x||||||||||||||||||||||x||||||x|
+|1309428287814460503|||||||||||||x|||||||||||||||||||||||x|x||||
+|-2361689441167315675||||||||||||||x|||||||||||||||||x|||||||||x|
+|1859600636541544962|||||||||||||||x||||||||||||||||||||x||x||||
+|4392746290174839510||||||||||||||||x|||||||||||||||||x||||x||||
+|8612208252073780035|||||||||||||||||x||||||||||||||||||x|||||x|
+|-4573193132854164117||||||||||||||||||x||||||||x|||||||||||x||||
+|-2046056796435610876|||||||||||||||||||x||||||||||||||||x|||||x|
+|-1560880583632011625||||||||||||||||||||x|||||||||||||x|||||||x|
+|-9087347948894523908|||||||||||||||||||||x|||||||||||x||||||||x|
+|5779330553623749495||||||||||||||||||||||x||||||x|||||||||x||||
+|1202233618030231494|||||||||||||||||||||||x||||||x|||||||||||x|
+|681885582466137227||||||||||||||||||||||||x||||x||||||||||||x|
+
+FormalContext filenames
+||src/user-settings|src/plot|src/plotList|src/admin|src/weather|src/export|src/alert|src/farmer|src/recommendation|src/observation|src/irrigation|src/danger|
+|src/user-settings|x||||||||||||
+|src/plot||x|||||||||||
+|src/plotList||x|x||||||||||
+|src/admin||||x|||||||||
+|src/weather|||||x||||||||
+|src/export||||||x|||||||
+|src/alert|||||||x||||||
+|src/farmer||||||||x|||||
+|src/recommendation|||||||||x||||
+|src/observation||||||||||x|||
+|src/irrigation|||||||||||x||
+|src/danger||||||||||||x|
+
+FormalContext editTypes
+||new_file|renamed_file|deleted_file|edited_file|
+|new_file|x||||
+|renamed_file||x|||
+|deleted_file|||x||
+|edited_file||||x|
+
+FormalContext clusters
+||refresh predicted weather|crud plots|plots plot list|unit recommendations favorite|crud farmer relaunch|
+|refresh predicted weather|x|||||
+|crud plots||x||||
+|plots plot list|||x|||
+|unit recommendations favorite||||x||
+|crud farmer relaunch|||||x|
+
+RelationalContext products2UserStories
+source products
+target US
+scaling exist
+||As a farmer  I can refresh the predicted weather|As a farmer I can CRUD plots|As a farmer with a plot I can edit the parameters of a plot (current season)|As a farmer with a plot I can sort my plots in the list|As a farmer with a plot I can filter my plots in the list|As a farmer with a plot I can export observation data for a plot|As a farmer with a plot I know when my plots will be in danger|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit|As a farmer irrigator I choose my preferred irrigation unit in my user-settings|As a farmer irrigator I can view my irrigation recommendations in my favorite unit|As a admin I can CRUD a farmer|As a admin I can relaunch all failed simulation|
+|Orchard|x|x|x|x|x||x||||x|x|
+|Almond||x||||||x||x||x|
+|Vine|x|x|x|||x|x||x|x|x|x|
+
+RelationalContext userStories2Roles
+source US
+target roles
+scaling exist
+||farmer|farmerwithplot|farmerirrigator|administrator|
+|As a farmer  I can refresh the predicted weather|x||||
+|As a farmer I can CRUD plots|x||||
+|As a farmer with a plot I can edit the parameters of a plot (current season)|x|x|||
+|As a farmer with a plot I can sort my plots in the list|x|x|||
+|As a farmer with a plot I can filter my plots in the list|x|x|||
+|As a farmer with a plot I can export observation data for a plot|x|x|||
+|As a farmer with a plot I know when my plots will be in danger|x|x|||
+|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit|x||x||
+|As a farmer irrigator I choose my preferred irrigation unit in my user-settings|x||x||
+|As a farmer irrigator I can view my irrigation recommendations in my favorite unit|x||x||
+|As a admin I can CRUD a farmer||||x|
+|As a admin I can relaunch all failed simulation||||x|
+
+RelationalContext userStories2features
+source US
+target features
+scaling exist
+||can refresh the predicted weather|can CRUD plots|can edit the parameters of a plot current season|can sort my plots in the list|can filter my plots in the list|can export observation data for a plot|know when my plots will be in danger|can manage my irrigations and recommendations in my favorite unit|choose my preferred irrigation unit in my user-settings|can view my irrigation recommendations in my favorite unit|can CRUD a farmer|can relaunch all failed simulation|
+|As a farmer  I can refresh the predicted weather|x||||||||||||
+|As a farmer I can CRUD plots||x|||||||||||
+|As a farmer with a plot I can edit the parameters of a plot (current season)|||x||||||||||
+|As a farmer with a plot I can sort my plots in the list||||x|||||||||
+|As a farmer with a plot I can filter my plots in the list|||||x||||||||
+|As a farmer with a plot I can export observation data for a plot||||||x|||||||
+|As a farmer with a plot I know when my plots will be in danger|||||||x||||||
+|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit||||||||x|||||
+|As a farmer irrigator I choose my preferred irrigation unit in my user-settings|||||||||x||||
+|As a farmer irrigator I can view my irrigation recommendations in my favorite unit||||||||||x|||
+|As a admin I can CRUD a farmer|||||||||||x||
+|As a admin I can relaunch all failed simulation||||||||||||x|
+
+RelationalContext features2AbstracFeatures
+source features
+target clusters
+scaling exist
+||refresh predicted weather|crud plots|plots plot list|unit recommendations favorite|crud farmer relaunch|
+|can refresh the predicted weather|x|||||
+|can CRUD plots||x||||
+|can edit the parameters of a plot current season|||x|||
+|can sort my plots in the list|||x|||
+|can filter my plots in the list|||x|||
+|can export observation data for a plot|||x|||
+|know when my plots will be in danger|||x|||
+|can manage my irrigations and recommendations in my favorite unit||||x||
+|choose my preferred irrigation unit in my user-settings||||x||
+|can view my irrigation recommendations in my favorite unit||||x||
+|can CRUD a farmer|||||x|
+|can relaunch all failed simulation|||||x|
+
+RelationalContext userStories2mrs
+source US
+target mrs
+scaling exist
+||1|2|3|4|5|6|7|8|9|10|11|12|
+|As a farmer  I can refresh the predicted weather|||||||||||||
+|As a farmer I can CRUD plots|||||||||||||
+|As a farmer with a plot I can edit the parameters of a plot (current season)|||||||||||||
+|As a farmer with a plot I can sort my plots in the list|||||||||||||
+|As a farmer with a plot I can filter my plots in the list|||||||||||||
+|As a farmer with a plot I can export observation data for a plot|||||||||||||
+|As a farmer with a plot I know when my plots will be in danger|||||||||||||
+|As a farmer irrigator I can manage my irrigations and recommendations in my favorite unit|||||||||||||
+|As a farmer irrigator I choose my preferred irrigation unit in my user-settings|||||||||||||
+|As a farmer irrigator I can view my irrigation recommendations in my favorite unit|||||||||||||
+|As a admin I can CRUD a farmer|||||||||||||
+|As a admin I can relaunch all failed simulation|||||||||||||
+
+RelationalContext mrs2changes
+source mrs
+target changes
+scaling exist
+||762370063873822982|2013845107719879822|-6845893734383208364|2354241747147181138|-5921696810744496784|-5637045100057961814|-7072470365386866477|678907345253714712|6485002724220797275|1231590037910604010|-8626457832150297401|-6532235692255975769|1309428287814460503|-2361689441167315675|1859600636541544962|4392746290174839510|8612208252073780035|-4573193132854164117|-2046056796435610876|-1560880583632011625|-9087347948894523908|5779330553623749495|1202233618030231494|681885582466137227|
+|1|x|x|||||||||||||||||||||||
+|2|||x|x|||||||||||||||||||||
+|3|||||x|x|||||||||||||||||||
+|4|||||||x|x|||||||||||||||||
+|5|||||||||x|x|||||||||||||||
+|6|||||||||||x|x|||||||||||||
+|7|||||||||||||x|x|||||||||||
+|8|||||||||||||||x|x|||||||||
+|9|||||||||||||||||x|x|||||||
+|10|||||||||||||||||||x|x|||||
+|11|||||||||||||||||||||x|x|||
+|12|||||||||||||||||||||||x|x|
+
+RelationalContext changes2filenames
+source changes
+target filenames
+scaling exist
+||src/user-settings|src/plot|src/plotList|src/admin|src/weather|src/export|src/alert|src/farmer|src/recommendation|src/observation|src/irrigation|src/danger|
+|762370063873822982||||||||x|||||
+|2013845107719879822|||||x||||||||
+|-6845893734383208364||||||||x|||||
+|2354241747147181138||x|||||||||||
+|-5921696810744496784||||||||x|||||
+|-5637045100057961814||x|||||||||||
+|-7072470365386866477||x|x||||||||||
+|678907345253714712||x|||||||||||
+|6485002724220797275||x|x||||||||||
+|1231590037910604010||x|||||||||||
+|-8626457832150297401||||||x|||||||
+|-6532235692255975769||||||||||x|||
+|1309428287814460503||||||||||||x|
+|-2361689441167315675|||||||x||||||
+|1859600636541544962|||||||||||x||
+|4392746290174839510|||||||||x||||
+|8612208252073780035|||||||||||x||
+|-4573193132854164117|x||||||||||||
+|-2046056796435610876|||||||||||x||
+|-1560880583632011625|||||||||x||||
+|-9087347948894523908||||||||x|||||
+|5779330553623749495||||x|||||||||
+|1202233618030231494|||||x||||||||
+|681885582466137227||||x|||||||||
+
+RelationalContext changes2diffs
+source changes
+target editTypes
+scaling exist
+||new_file|renamed_file|deleted_file|edited_file|
+|762370063873822982||||x|
+|2013845107719879822|x||||
+|-6845893734383208364||||x|
+|2354241747147181138||||x|
+|-5921696810744496784||||x|
+|-5637045100057961814||||x|
+|-7072470365386866477||||x|
+|678907345253714712||||x|
+|6485002724220797275|x||||
+|1231590037910604010||||x|
+|-8626457832150297401|x||||
+|-6532235692255975769||||x|
+|1309428287814460503|x||||
+|-2361689441167315675||||x|
+|1859600636541544962|x||||
+|4392746290174839510|x||||
+|8612208252073780035||||x|
+|-4573193132854164117|x||||
+|-2046056796435610876||||x|
+|-1560880583632011625||||x|
+|-9087347948894523908||||x|
+|5779330553623749495|x||||
+|1202233618030231494||||x|
+|681885582466137227||||x|
+

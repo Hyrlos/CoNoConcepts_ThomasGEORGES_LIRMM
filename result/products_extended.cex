@@ -5,13 +5,13 @@
         <Context Identifier="0" Type="Binary">
             <Attributes>
                 <Attribute Identifier="0">
-                    <Name>Almond</Name>
+                    <Name>Orchard</Name>
                 </Attribute>
                 <Attribute Identifier="1">
-                    <Name>Vine</Name>
+                    <Name>Almond</Name>
                 </Attribute>
                 <Attribute Identifier="2">
-                    <Name>Orchard</Name>
+                    <Name>Vine</Name>
                 </Attribute>
                 <Attribute Identifier="3">
                     <Name>exist_products2UserStories(As a farmer  I can refresh the predicted weather)</Name>
@@ -67,9 +67,26 @@
             </Attributes>
             <Objects>
                 <Object>
-                    <Name>Almond</Name>
+                    <Name>Orchard</Name>
                     <Intent>
                         <HasAttribute AttributeIdentifier="0"/>
+                        <HasAttribute AttributeIdentifier="3"/>
+                        <HasAttribute AttributeIdentifier="4"/>
+                        <HasAttribute AttributeIdentifier="5"/>
+                        <HasAttribute AttributeIdentifier="6"/>
+                        <HasAttribute AttributeIdentifier="7"/>
+                        <HasAttribute AttributeIdentifier="9"/>
+                        <HasAttribute AttributeIdentifier="13"/>
+                        <HasAttribute AttributeIdentifier="14"/>
+                        <HasAttribute AttributeIdentifier="16"/>
+                        <HasAttribute AttributeIdentifier="18"/>
+                        <HasAttribute AttributeIdentifier="19"/>
+                    </Intent>
+                </Object>
+                <Object>
+                    <Name>Almond</Name>
+                    <Intent>
+                        <HasAttribute AttributeIdentifier="1"/>
                         <HasAttribute AttributeIdentifier="4"/>
                         <HasAttribute AttributeIdentifier="10"/>
                         <HasAttribute AttributeIdentifier="12"/>
@@ -82,7 +99,7 @@
                 <Object>
                     <Name>Vine</Name>
                     <Intent>
-                        <HasAttribute AttributeIdentifier="1"/>
+                        <HasAttribute AttributeIdentifier="2"/>
                         <HasAttribute AttributeIdentifier="3"/>
                         <HasAttribute AttributeIdentifier="4"/>
                         <HasAttribute AttributeIdentifier="5"/>
@@ -94,23 +111,6 @@
                         <HasAttribute AttributeIdentifier="14"/>
                         <HasAttribute AttributeIdentifier="16"/>
                         <HasAttribute AttributeIdentifier="17"/>
-                        <HasAttribute AttributeIdentifier="18"/>
-                        <HasAttribute AttributeIdentifier="19"/>
-                    </Intent>
-                </Object>
-                <Object>
-                    <Name>Orchard</Name>
-                    <Intent>
-                        <HasAttribute AttributeIdentifier="2"/>
-                        <HasAttribute AttributeIdentifier="3"/>
-                        <HasAttribute AttributeIdentifier="4"/>
-                        <HasAttribute AttributeIdentifier="5"/>
-                        <HasAttribute AttributeIdentifier="6"/>
-                        <HasAttribute AttributeIdentifier="7"/>
-                        <HasAttribute AttributeIdentifier="9"/>
-                        <HasAttribute AttributeIdentifier="13"/>
-                        <HasAttribute AttributeIdentifier="14"/>
-                        <HasAttribute AttributeIdentifier="16"/>
                         <HasAttribute AttributeIdentifier="18"/>
                         <HasAttribute AttributeIdentifier="19"/>
                     </Intent>

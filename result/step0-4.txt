@@ -1,1 +1,1 @@
-mrs: step=1 nb.concepts=12 nb.attrib rel.=0
+mrs: step=1 nb.concepts=24 nb.attrib rel.=0

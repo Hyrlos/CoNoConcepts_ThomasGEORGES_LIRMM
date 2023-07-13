@@ -1,1 +1,1 @@
-features: step=1 nb.concepts=12 nb.attrib rel.=0
+features: step=1 nb.concepts=15 nb.attrib rel.=0

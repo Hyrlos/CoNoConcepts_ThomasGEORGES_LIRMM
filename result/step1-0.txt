@@ -1,1 +1,1 @@
-products: step=2 nb.concepts=6 nb.attrib rel.=12
+products: step=2 nb.concepts=7 nb.attrib rel.=17

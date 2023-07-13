@@ -1,1 +1,1 @@
-US: step=1 nb.concepts=12 nb.attrib rel.=0
+US: step=1 nb.concepts=17 nb.attrib rel.=0

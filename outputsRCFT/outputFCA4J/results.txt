@@ -7,7 +7,7 @@ changes: step=1 nb.concepts=24 nb.attrib rel.=0
 filenames: step=1 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=1 nb.concepts=4 nb.attrib rel.=0
 clusters: step=1 nb.concepts=5 nb.attrib rel.=0
-time:47 ms
+time:48 ms
 products: step=2 nb.concepts=6 nb.attrib rel.=12
 US: step=2 nb.concepts=17 nb.attrib rel.=28
 roles: step=2 nb.concepts=4 nb.attrib rel.=0
@@ -17,7 +17,7 @@ changes: step=2 nb.concepts=34 nb.attrib rel.=16
 filenames: step=2 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=2 nb.concepts=4 nb.attrib rel.=0
 clusters: step=2 nb.concepts=5 nb.attrib rel.=0
-time:54 ms
+time:48 ms
 products: step=3 nb.concepts=7 nb.attrib rel.=17
 US: step=3 nb.concepts=17 nb.attrib rel.=33
 roles: step=3 nb.concepts=4 nb.attrib rel.=0
@@ -27,7 +27,7 @@ changes: step=3 nb.concepts=34 nb.attrib rel.=16
 filenames: step=3 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=3 nb.concepts=4 nb.attrib rel.=0
 clusters: step=3 nb.concepts=5 nb.attrib rel.=0
-time:31 ms
+time:29 ms
 products: step=4 nb.concepts=7 nb.attrib rel.=17
 US: step=4 nb.concepts=17 nb.attrib rel.=43
 roles: step=4 nb.concepts=4 nb.attrib rel.=0
@@ -37,5 +37,5 @@ changes: step=4 nb.concepts=34 nb.attrib rel.=16
 filenames: step=4 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=4 nb.concepts=4 nb.attrib rel.=0
 clusters: step=4 nb.concepts=5 nb.attrib rel.=0
-time:23 ms
-total time: 194
+time:22 ms
+total time: 199

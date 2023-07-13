@@ -1,41 +1,21 @@
-products: step=1 nb.concepts=3 nb.attrib rel.=0
-US: step=1 nb.concepts=12 nb.attrib rel.=0
+products: step=1 nb.concepts=7 nb.attrib rel.=0
+US: step=1 nb.concepts=17 nb.attrib rel.=0
 roles: step=1 nb.concepts=4 nb.attrib rel.=0
-features: step=1 nb.concepts=12 nb.attrib rel.=0
-mrs: step=1 nb.concepts=12 nb.attrib rel.=0
-changes: step=1 nb.concepts=24 nb.attrib rel.=0
+features: step=1 nb.concepts=15 nb.attrib rel.=0
+mrs: step=1 nb.concepts=24 nb.attrib rel.=0
+changes: step=1 nb.concepts=34 nb.attrib rel.=0
 filenames: step=1 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=1 nb.concepts=4 nb.attrib rel.=0
 clusters: step=1 nb.concepts=5 nb.attrib rel.=0
-time:32 ms
-products: step=2 nb.concepts=6 nb.attrib rel.=12
-US: step=2 nb.concepts=17 nb.attrib rel.=28
+time:48 ms
+products: step=2 nb.concepts=7 nb.attrib rel.=17
+US: step=2 nb.concepts=17 nb.attrib rel.=43
 roles: step=2 nb.concepts=4 nb.attrib rel.=0
 features: step=2 nb.concepts=15 nb.attrib rel.=5
-mrs: step=2 nb.concepts=14 nb.attrib rel.=24
+mrs: step=2 nb.concepts=24 nb.attrib rel.=34
 changes: step=2 nb.concepts=34 nb.attrib rel.=16
 filenames: step=2 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=2 nb.concepts=4 nb.attrib rel.=0
 clusters: step=2 nb.concepts=5 nb.attrib rel.=0
-time:32 ms
-products: step=3 nb.concepts=7 nb.attrib rel.=17
-US: step=3 nb.concepts=17 nb.attrib rel.=33
-roles: step=3 nb.concepts=4 nb.attrib rel.=0
-features: step=3 nb.concepts=15 nb.attrib rel.=5
-mrs: step=3 nb.concepts=24 nb.attrib rel.=34
-changes: step=3 nb.concepts=34 nb.attrib rel.=16
-filenames: step=3 nb.concepts=12 nb.attrib rel.=0
-editTypes: step=3 nb.concepts=4 nb.attrib rel.=0
-clusters: step=3 nb.concepts=5 nb.attrib rel.=0
-time:19 ms
-products: step=4 nb.concepts=7 nb.attrib rel.=17
-US: step=4 nb.concepts=17 nb.attrib rel.=43
-roles: step=4 nb.concepts=4 nb.attrib rel.=0
-features: step=4 nb.concepts=15 nb.attrib rel.=5
-mrs: step=4 nb.concepts=24 nb.attrib rel.=34
-changes: step=4 nb.concepts=34 nb.attrib rel.=16
-filenames: step=4 nb.concepts=12 nb.attrib rel.=0
-editTypes: step=4 nb.concepts=4 nb.attrib rel.=0
-clusters: step=4 nb.concepts=5 nb.attrib rel.=0
-time:17 ms
-total time: 179
+time:35 ms
+total time: 163
