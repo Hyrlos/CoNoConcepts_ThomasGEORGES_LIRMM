@@ -1,13 +1,13 @@
-features,Orchard,Vine,Almond
-can refresh the predicted weather,x,x,
+features,Orchard,Almond,Vine
+can refresh the predicted weather,x,,x
 can CRUD plots,x,x,x
-can edit the parameters of a plot current season ,x,x,
+can edit the parameters of a plot current season ,x,,x
 can sort my plots in the list,x,,
 can filter my plots in the list,x,,
-can export observation data for a plot,,x,
-know when my plots will be in danger,x,x,
-can manage my irrigations and recommendations in my favorite unit,,,x
-choose my preferred irrigation unit in my user-settings,,x,
+can export observation data for a plot,,,x
+know when my plots will be in danger,x,,x
+can manage my irrigations and recommendations in my favorite unit,,x,
+choose my preferred irrigation unit in my user-settings,,,x
 can view my irrigation recommendations in my favorite unit,,x,x
-can CRUD a farmer,x,x,
+can CRUD a farmer,x,,x
 can relaunch all failed simulation,x,x,x
