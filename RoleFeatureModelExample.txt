@@ -43,10 +43,10 @@
 <not><conj><var>can CRUD plots</var><var>can relaunch all failed simulation</var></conj></not>
 		</rule>
 		<rule>
-<not><conj><var>can refresh the predicted weather</var><var>can CRUD plots</var><var>can sort my plots in the list</var><var>can filter my plots in the list</var><var>can export observation data for a plot</var><var>know when my plots will be in danger</var><var>choose my preferred irrigation unit in my user-settings</var><var>can view my irrigation recommendations in my favorite unit</var><var>can CRUD a farmer</var><var>can relaunch all failed simulation</var></conj></not>
+<not><conj><var>can refresh the predicted weather</var><var>can CRUD plots</var><var>can export observation data for a plot</var><var>know when my plots will be in danger</var><var>can manage my irrigations and recommendations in my favorite unit</var><var>choose my preferred irrigation unit in my user-settings</var><var>can view my irrigation recommendations in my favorite unit</var><var>can CRUD a farmer</var><var>can relaunch all failed simulation</var></conj></not>
 		</rule>
 		<rule>
-<not><conj><var>can refresh the predicted weather</var><var>can CRUD plots</var><var>can export observation data for a plot</var><var>know when my plots will be in danger</var><var>can manage my irrigations and recommendations in my favorite unit</var><var>choose my preferred irrigation unit in my user-settings</var><var>can view my irrigation recommendations in my favorite unit</var><var>can CRUD a farmer</var><var>can relaunch all failed simulation</var></conj></not>
+<not><conj><var>can refresh the predicted weather</var><var>can CRUD plots</var><var>can sort my plots in the list</var><var>can filter my plots in the list</var><var>can export observation data for a plot</var><var>know when my plots will be in danger</var><var>choose my preferred irrigation unit in my user-settings</var><var>can view my irrigation recommendations in my favorite unit</var><var>can CRUD a farmer</var><var>can relaunch all failed simulation</var></conj></not>
 		</rule>
 	</constraints>
 </featureModel>
