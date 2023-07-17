@@ -7,7 +7,7 @@ changes: step=1 nb.concepts=34 nb.attrib rel.=0
 filenames: step=1 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=1 nb.concepts=4 nb.attrib rel.=0
 clusters: step=1 nb.concepts=5 nb.attrib rel.=0
-time:50 ms
+time:55 ms
 products: step=2 nb.concepts=7 nb.attrib rel.=17
 US: step=2 nb.concepts=17 nb.attrib rel.=43
 roles: step=2 nb.concepts=4 nb.attrib rel.=0
@@ -17,5 +17,5 @@ changes: step=2 nb.concepts=34 nb.attrib rel.=16
 filenames: step=2 nb.concepts=12 nb.attrib rel.=0
 editTypes: step=2 nb.concepts=4 nb.attrib rel.=0
 clusters: step=2 nb.concepts=5 nb.attrib rel.=0
-time:35 ms
+time:33 ms
 total time: 165
