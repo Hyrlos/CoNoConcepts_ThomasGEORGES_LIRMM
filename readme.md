@@ -1,3 +1,20 @@
+# From user stories to feature models
+## Context
+The Software Product Lines (SPL) are now a well-established way to efficiently produce highly-configurable software products. However, migrating an existing software family into an integrated SPL platform is still challenging and organizations may be reluctant to adopt the approach. Hesitations often arise from the lack of standard procedures guiding the process, as well as doubts on the cost/benefit ratio. Although companies own large bases of well-documented code, they still manually build tailored applications from the base code to meet their clients' requirements, sometimes with a clone-and-own strategy.
+
+One of the difficulties during the migration process is to extract a relevant feature model from the existing products. In this notebook, we address this difficulty in the context of products built with an agile process, specifically where requirements are defined using user stories, and a version control system  is used to store and trace project artifacts. User stories are nowadays widely used in a large part of software projects to define requirements. VCS platforms like GitLab or Github are widespread support not only to manage code artifacts but also as a central part of project management, directly using integrated tools to manage the user stories or integrating external tools in the VCS platform. Therefore, our approach is suitable for a large part of projects.
+
+In this context, we have developed an automated feature model synthesis approach based on the knowledge collected from the user stories and the way they are linked to the product code through traceability links established in the VCS.
+
+### Rough view: A Step in migrating a set of similar software into a Soft. product line
+
+**From existing products**  
+![fromExistingProducts.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/fromExistingProducts.png)  
+
+
+**To a feature model**  
+![ToAFeatureModel.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/ToAFeatureModel.png)  
+
 ## Readme
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/HEAD?labpath=CoNoConcepts_ThomasGEORGES_LIRMM%20.ipynb)
@@ -16,7 +33,7 @@ All the source code is available in a [Github repository](https://github.com/Hyr
   - The changes related Code Diff
   
 **Outputs:**  
-Two kind of feature representations:
+Two kinds of feature representations:
 - *Feature model*: a hierarchical diagram that visually illustrates the features, and their dependencies
 - *Feature role model*: a feature model hierarchized by roles
 
@@ -24,13 +41,18 @@ Two kind of feature representations:
 User-stories are used to identify the roles, features and create abstract features. They are the nodes and the leafs on the outputs models.  
 The relations between the nodes and leafs are computed with FCA and RCA.
 
-![UStoFM.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/UStoFM.png)
+**Big picture**  
+![processCono.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/processCono.png)  
 
-**Big picture**
-![processCono.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/processCono.png)
+**From User stories to logical constraints**   
+![UStoFM.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/UStoFM.png)  
+
+
 
 **FCA and RCA Model**  
-![USFeatureFCA.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/USFeatureFCA.png)
+<div>
+<img src="https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/USFeatureFCA.png" width="800"/>
+</div>
 
 **Formal Concept Analysis:**  
 Each object from Version Control System is represented with a Formal Context:   
@@ -78,9 +100,10 @@ The relations between each objects are in their related Relational Concepts:
 | 12       | As a admin, I can relaunch all failed simulation                                           |
 
 
-### Outputs:
-#### Feature Model:
-![exampleFMCONO.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/exampleFMCONO.png)
+### Outputs visualized:
+#### Feature Model with FeatureIDE:
+![exampleFMCONO.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/exampleFMCONO.png)
 
-#### Feature Role Model:
-![exampleFRMCONO.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/exampleFRMCONO.png)
+#### Feature Role Model with FeatureIDE:
+![exampleFRMCONO.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/exampleFRMCONO.png)
+
