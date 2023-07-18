@@ -1,5 +1,7 @@
 ## Readme
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/HEAD?labpath=CoNoConcepts_ThomasGEORGES_LIRMM%20.ipynb)
+
 **Objective**   
 Provide an automated process for feature models synthesis using Formal Concept Analysis and Relational Concept Analysis by leveraging User-stories and code merges.
 All the source code is available in a [Github repository](https://github.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM)
