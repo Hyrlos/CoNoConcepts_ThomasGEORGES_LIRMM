@@ -9,11 +9,11 @@ In this context, we have developed an automated feature model synthesis approach
 ### Rough view: A Step in migrating a set of similar software into a Soft. product line
 
 **From existing products**  
-![fromExistingProducts.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/fromExistingProducts.png)  
+![fromExistingProducts.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/fromExistingProducts.png)  
 
 
 **To a feature model**  
-![ToAFeatureModel.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/ToAFeatureModel.png)  
+![ToAFeatureModel.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/ToAFeatureModel.png)  
 
 ## Readme
 
