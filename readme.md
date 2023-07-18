@@ -13,17 +13,17 @@ In this context, we have developed an automated feature model synthesis approach
 ### Rough view: A Step in migrating a set of similar software into a Soft. product line
 
 **From existing products**  
-![fromExistingProducts.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/fromExistingProducts.png)  
+![fromExistingProducts.png](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/fromExistingProducts.png)  
 
 
 **To a feature model**  
-![ToAFeatureModel.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/ToAFeatureModel.png)  
+![ToAFeatureModel.png](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/ToAFeatureModel.png)  
 
 ## Readme
 
 **Objective**   
 Provide an automated process for feature models synthesis using Formal Concept Analysis and Relational Concept Analysis by leveraging User-stories and code merges.
-All the source code is available in a [Github repository](https://github.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM)
+All the source code is available in a [Git repository](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM)
 
 **Inputs:**  
 - Dataset extracted from Github or Gitlab:
@@ -44,16 +44,16 @@ User-stories are used to identify the roles, features and create abstract featur
 The relations between the nodes and leafs are computed with FCA and RCA.
 
 **Big picture**  
-![processCono.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/processCono.png)  
+![processCono.png](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/processCono.png)  
 
 **From User stories to logical constraints**   
-![UStoFM.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/UStoFM.png)  
+![UStoFM.png](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/UStoFM.png)  
 
 
 
 **FCA and RCA Model**  
 <div>
-<img src="https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/USFeatureFCA.png" width="800"/>
+<img src="https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/USFeatureFCA.png" width="800"/>
 </div>
 
 **Formal Concept Analysis:**  
@@ -104,8 +104,8 @@ The relations between each objects are in their related Relational Concepts:
 
 ### Outputs visualized:
 #### Feature Model with FeatureIDE:
-![exampleFMCONO.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/exampleFMCONO.png)
+![exampleFMCONO.png](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/exampleFMCONO.png)
 
 #### Feature Role Model with FeatureIDE:
-![exampleFRMCONO.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/exampleFRMCONO.png)
+![exampleFRMCONO.png](https://gite.lirmm.fr/tgeorges/CoNoConcepts_ThomasGEORGES_LIRMM/-/raw/master/images/exampleFRMCONO.png)
 
