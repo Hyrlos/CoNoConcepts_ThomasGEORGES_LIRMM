@@ -1,5 +1,9 @@
 # From user stories to feature models
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/HEAD?labpath=CoNoConcepts_ThomasGEORGES_LIRMM%20.ipynb)
+
 ## Context
+
 The Software Product Lines (SPL) are now a well-established way to efficiently produce highly-configurable software products. However, migrating an existing software family into an integrated SPL platform is still challenging and organizations may be reluctant to adopt the approach. Hesitations often arise from the lack of standard procedures guiding the process, as well as doubts on the cost/benefit ratio. Although companies own large bases of well-documented code, they still manually build tailored applications from the base code to meet their clients' requirements, sometimes with a clone-and-own strategy.
 
 One of the difficulties during the migration process is to extract a relevant feature model from the existing products. In this notebook, we address this difficulty in the context of products built with an agile process, specifically where requirements are defined using user stories, and a version control system  is used to store and trace project artifacts. User stories are nowadays widely used in a large part of software projects to define requirements. VCS platforms like GitLab or Github are widespread support not only to manage code artifacts but also as a central part of project management, directly using integrated tools to manage the user stories or integrating external tools in the VCS platform. Therefore, our approach is suitable for a large part of projects.
@@ -16,8 +20,6 @@ In this context, we have developed an automated feature model synthesis approach
 ![ToAFeatureModel.png](https://raw.githubusercontent.com/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/master/images/ToAFeatureModel.png)  
 
 ## Readme
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hyrlos/CoNoConcepts_ThomasGEORGES_LIRMM/HEAD?labpath=CoNoConcepts_ThomasGEORGES_LIRMM%20.ipynb)
 
 **Objective**   
 Provide an automated process for feature models synthesis using Formal Concept Analysis and Relational Concept Analysis by leveraging User-stories and code merges.
