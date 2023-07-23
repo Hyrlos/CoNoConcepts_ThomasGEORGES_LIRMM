@@ -1,6 +1,6 @@
 # From user stories to feature models
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgite.lirmm.fr%2Ftgeorges%2FCoNoConcepts_ThomasGEORGES_LIRMM/HEAD?labpath=CoNoConcepts_ThomasGEORGES_LIRMM%20.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgite.lirmm.fr%2Ftgeorges%2FCoNoConcepts_ThomasGEORGES_LIRMM/0b3e5987fa998848358604eac8d3dd3f8d01e937?urlpath=lab%2Ftree%2FCoNoConcepts_ThomasGEORGES_LIRMM%20.ipynb)
 
 ## Context
 
